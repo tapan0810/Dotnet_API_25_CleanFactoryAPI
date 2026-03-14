@@ -10,11 +10,11 @@ namespace Dotnet_API_25.Mapping
         {
             CreateMap<Factory, GetAllFactoriesDto>();
 
-            CreateMap<GetFactoryByIdDto, Factory>();
+            CreateMap<Factory, GetFactoryByIdDto>();
 
-            CreateMap<Factory,UpdateFactoryDto>();
+            CreateMap<UpdateFactoryDto,Factory>();
 
-            CreateMap<Factory,CreateFactoryDto>();
+            CreateMap<CreateFactoryDto,Factory>();
 
         }
     }
