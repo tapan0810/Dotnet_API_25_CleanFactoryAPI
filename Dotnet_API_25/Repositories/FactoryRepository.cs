@@ -21,7 +21,7 @@ namespace Dotnet_API_25.Repositories
                  _context.Factories.Remove(factory);
                 await _context.SaveChangesAsync();  
             }
-            return true;
+            
         }
 
         public async Task<IEnumerable<Factory>> GetAllFactory(int pageNumber,int pageSize)

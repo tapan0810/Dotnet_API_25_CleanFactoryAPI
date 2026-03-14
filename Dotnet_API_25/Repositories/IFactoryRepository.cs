@@ -10,7 +10,7 @@ namespace Dotnet_API_25.Repositories
 
         public Task<Factory> CreateFactory(Factory factory);
         public Task UpdateFactory(Factory updateFactory);
-        public Task<bool> DeleteFactory(int id);
+        public Task DeleteFactory(int id);
 
 
     }
