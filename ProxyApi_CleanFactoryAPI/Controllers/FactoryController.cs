@@ -1,9 +1,9 @@
-﻿using Dotnet_API_25.Entities.DTOs;
-using Dotnet_API_25.Services;
+﻿using ProxyApi_CleanFactoryAPI.Entities.DTOs;
+using ProxyApi_CleanFactoryAPI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Dotnet_API_25.Controllers
+namespace ProxyApi_CleanFactoryAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -59,7 +59,7 @@ namespace Dotnet_API_25.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Response from API 1 - 5210");
+            return Ok("Response from API 2 - 5265");
         }
     }
 }

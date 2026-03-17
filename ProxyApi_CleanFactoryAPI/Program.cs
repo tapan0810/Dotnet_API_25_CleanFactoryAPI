@@ -1,8 +1,8 @@
-using Dotnet_API_25.Data;
-using Dotnet_API_25.Helper.JwtHelper;
-using Dotnet_API_25.Repositories;
-using Dotnet_API_25.Repositories.UserRepositories;
-using Dotnet_API_25.Services;
+using ProxyApi_CleanFactoryAPI.Data;
+using ProxyApi_CleanFactoryAPI.Helper.JwtHelper;
+using ProxyApi_CleanFactoryAPI.Repositories;
+using ProxyApi_CleanFactoryAPI.Repositories.UserRepositories;
+using ProxyApi_CleanFactoryAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
