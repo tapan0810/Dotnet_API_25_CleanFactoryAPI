@@ -1,10 +1,10 @@
-﻿using Dotnet_API_25.Entities.Models;
+﻿using ProxyApi_CleanFactoryAPI.Entities.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Dotnet_API_25.Helper.JwtHelper
+namespace ProxyApi_CleanFactoryAPI.Helper.JwtHelper
 {
     public class JwtHelper(IConfiguration configuration) : IJwtHelper
     {
